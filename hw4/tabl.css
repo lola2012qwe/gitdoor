@@ -1,0 +1,25 @@
+td{
+    border:2px solid black;
+
+}
+body{
+   margin: 0;
+
+}
+.one{
+    border:3px solid black;
+    width:100%;
+    text-align:center;
+}
+
+.two{
+border: 6px solid blak;
+width: 100%;
+    margin-top: 100px;
+}
+.two td{
+    border-collapse: collapse;
+    text-align: center;
+background:pink;
+} 
+
