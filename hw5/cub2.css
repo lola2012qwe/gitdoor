@@ -1,0 +1,64 @@
+
+.cubic2 > div{
+    width: 35px;
+    height: 35px;
+    background-color: aqua;
+    position: absolute;
+    margin: 15px;
+}
+@keyframes ani1{
+    from{
+        transform: rotate(45deg);
+        top:100px;
+    }
+    to{
+        transform: rotate(135deg);
+        top:75px;
+    }
+}
+.sq1{
+    left: 100px;
+    animation: ani1 1s linear infinite alternate;
+}
+@keyframes ani2{
+    from{
+        transform: rotate(135deg);
+        top: 142px;
+    }
+    to{
+        transform: rotate(45deg);
+        top: 167px;
+    }
+}
+.sq3{
+    left: 100px;
+    animation: ani2 1s linear infinite alternate;
+}
+@keyframes ani3{
+    from{
+        transform: rotate(145deg);
+        left: 76px;
+    }
+    to{
+        transform: rotate(135deg);
+        left: 54px;
+    }
+}
+.sq2{
+    top:121px;
+    animation: ani3 1s linear infinite alternate;
+}
+@keyframes ani4{
+    from{
+        transform: rotaterotate(135deg);
+        left: 121px;
+    }
+    to{
+        transform: rotate(145deg);
+        left: 125px;
+    }
+}
+.sq4{
+    top: 121px;
+    animation: ani4 1s linear infinite alternate;
+}
